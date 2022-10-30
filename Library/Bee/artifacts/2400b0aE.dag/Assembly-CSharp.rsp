@@ -357,6 +357,7 @@
 "Assets/scripts/BasicForceJump.cs"
 "Assets/scripts/BasicForceMovement.cs"
 "Assets/scripts/CameraController.cs"
+"Assets/scripts/ExplodeOnContact.cs"
 "Assets/scripts/FallDamage.cs"
 "Assets/scripts/ThirdPersonCam.cs"
 -langversion:9.0
