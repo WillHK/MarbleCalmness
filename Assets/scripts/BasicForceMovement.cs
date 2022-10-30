@@ -36,7 +36,11 @@ public class BasicForceMovement : MonoBehaviour
 
     void FixedUpdate()
     {
-        myRB.AddForce(new Vector3(movementInput.x, 0, movementInput.y) * force);
+        Vector3 camDir = Camera.main.transform.forward;
+        camDir = Vector3.ProjectOnPlane(camDir, Vector3.up);
+        myRB.transform.forward = camDir;
+
+        myRB.AddRelativeForce(new Vector3(movementInput.x, 0, movementInput.y) * force);
 
         if (myRB.velocity.y < topYSpeed)
         {
