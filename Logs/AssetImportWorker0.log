@@ -6,11 +6,11 @@ System name:             Linux
 Distro version:          #58-Ubuntu SMP Thu Oct 13 08:03:55 UTC 2022
 Kernel version:          5.15.0-52-generic
 Architecture:            x86_64
-Available memory:        15950 MB
+Available memory:        15949 MB
 Using pre-set license
 Pro License: YES
 
-(Unity:40311): Gdk-CRITICAL **: 18:53:52.751: gdk_window_get_cursor: assertion 'GDK_IS_WINDOW (window)' failed
+(Unity:64854): Gdk-CRITICAL **: 13:05:08.533: gdk_window_get_cursor: assertion 'GDK_IS_WINDOW (window)' failed
 Desktop is 1920 x 1080 @ 60 Hz
 Initialize udev device monitor.
 
@@ -26,7 +26,7 @@ AssetImportWorker0
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-45813
+44159
 Successfully changed project path to: /home/nunya/MarbleCalmness
 /home/nunya/MarbleCalmness
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -58,12 +58,12 @@ Successfully changed project path to: /home/nunya/MarbleCalmness
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 111.75 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 108.87 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.10f1 (1c7d0df0160b)
 [Subsystems] Discovering subsystems at path /home/nunya/Unity/Hub/Editor/2021.3.10f1/Editor/Data/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path /home/nunya/MarbleCalmness/Assets
-GLX Extensions: GLX_ARB_context_flush_control GLX_ARB_create_context GLX_ARB_create_context_no_error GLX_ARB_create_context_profile GLX_ARB_create_context_robustness GLX_ARB_fbconfig_float GLX_ARB_framebuffer_sRGB GLX_ARB_get_proc_address GLX_ARB_multisample GLX_EXT_buffer_age GLX_EXT_create_context_es2_profile GLX_EXT_create_context_es_profile GLX_EXT_fbconfig_packed_float GLX_EXT_framebuffer_sRGB GLX_EXT_no_config_context GLX_EXT_swap_control GLX_EXT_swap_control_tear GLX_EXT_texture_from_pixmap GLX_EXT_visual_info GLX_EXT_visual_rating GLX_INTEL_swap_event GLX_MESA_copy_sub_buffer GLX_MESA_query_renderer GLX_MESA_swap_control GLX_OML_swap_method GLX_OML_sync_control GLX_SGIS_multisample GLX_SGIX_fbconfig GLX_SGIX_pbuffer GLX_SGIX_visual_select_group GLX_SGI_make_current_read GLX_SGI_swap_control GLX_SGI_video_sync 
+GLX Extensions: GLX_ARB_context_flush_control GLX_ARB_create_context GLX_ARB_create_context_no_error GLX_ARB_create_context_profile GLX_ARB_create_context_robustness GLX_ARB_fbconfig_float GLX_ARB_framebuffer_sRGB GLX_ARB_get_proc_address GLX_ARB_multisample GLX_EXT_buffer_age GLX_EXT_create_context_es2_profile GLX_EXT_create_context_es_profile GLX_EXT_fbconfig_packed_float GLX_EXT_framebuffer_sRGB GLX_EXT_no_config_context GLX_EXT_swap_control GLX_EXT_swap_control_tear GLX_EXT_texture_from_pixmap GLX_EXT_visual_info GLX_EXT_visual_rating GLX_MESA_copy_sub_buffer GLX_MESA_query_renderer GLX_MESA_swap_control GLX_OML_swap_method GLX_OML_sync_control GLX_SGIS_multisample GLX_SGIX_fbconfig GLX_SGIX_pbuffer GLX_SGIX_visual_select_group GLX_SGI_make_current_read GLX_SGI_video_sync 
 Renderer: NV126
 Vendor:   nouveau
 Version:  4.3 (Core Profile) Mesa 22.3.0-devel (git-0237e5f 2022-10-21 jammy-oibaf-ppa)
@@ -74,87 +74,87 @@ ry GL_ARB_provoking_vertex GL_ARB_query_buffer_object GL_ARB_robust_buffer_acces
 exture_compression_bptc GL_ARB_texture_compression_rgtc GL_ARB_texture_cube_map_array GL_ARB_texture_filter_anisotropic GL_ARB_texture_filter_minmax GL_ARB_texture_float GL_ARB_texture_gather GL_ARB_texture_mirror_clamp_to_edge GL_ARB_texture_multisample GL_ARB_texture_non_power_of_two GL_ARB_texture_query_levels GL_ARB_texture_query_lod GL_ARB_texture_rectangle GL_ARB_texture_rg GL_ARB_texture_rgb10_a2ui GL_ARB_texture_stencil8 GL_ARB_texture_storage GL_ARB_texture_storage_multisample GL_ARB_texture_swizzle GL_ARB_texture_view GL_ARB_timer_query GL_ARB_transform_feedback2 GL_ARB_transform_feedback3 GL_ARB_transform_feedback_instanced GL_ARB_transform_feedback_overflow_query GL_ARB_uniform_buffer_object GL_ARB_vertex_array_bgra GL_ARB_vertex_array_object GL_ARB_vertex_attrib_64bit GL_ARB_vertex_attrib_binding GL_ARB_vertex_buffer_object GL_ARB_vertex_shader GL_ARB_vertex_type_10f_11f_11f_rev GL_ARB_vertex_type_2_10_10_10_rev GL_ARB_viewport_array GL_ATI_blend_equation_separate GL_ATI_meminfo GL_ATI_texture_f
 loat GL_ATI_texture_mirror_once GL_EXT_EGL_image_storage GL_EXT_EGL_sync GL_EXT_abgr GL_EXT_blend_equation_separate GL_EXT_debug_label GL_EXT_demote_to_helper_invocation GL_EXT_depth_bounds_test GL_EXT_draw_buffers2 GL_EXT_draw_instanced GL_EXT_framebuffer_blit GL_EXT_framebuffer_multisample GL_EXT_framebuffer_multisample_blit_scaled GL_EXT_framebuffer_object GL_EXT_framebuffer_sRGB GL_EXT_packed_depth_stencil GL_EXT_packed_float GL_EXT_pixel_buffer_object GL_EXT_polygon_offset_clamp GL_EXT_provoking_vertex GL_EXT_shader_image_load_store GL_EXT_shader_integer_mix GL_EXT_texture_array GL_EXT_texture_compression_dxt1 GL_EXT_texture_compression_rgtc GL_EXT_texture_compression_s3tc GL_EXT_texture_filter_anisotropic GL_EXT_texture_filter_minmax GL_EXT_texture_integer GL_EXT_texture_mirror_clamp GL_EXT_texture_sRGB GL_EXT_texture_sRGB_R8 GL_EXT_texture_sRGB_decode GL_EXT_texture_shadow_lod GL_EXT_texture_shared_exponent GL_EXT_texture_snorm GL_EXT_texture_swizzle GL_EXT_timer_query GL_EXT_transform_feedback GL_EXT
 _vertex_array_bgra GL_EXT_vertex_attrib_64bit GL_EXT_window_rectangles GL_IBM_multimode_draw_arrays GL_KHR_blend_equation_advanced GL_KHR_context_flush_control GL_KHR_debug GL_KHR_no_error GL_KHR_parallel_shader_compile GL_KHR_robust_buffer_access_behavior GL_KHR_robustness GL_KHR_texture_compression_astc_ldr GL_KHR_texture_compression_astc_sliced_3d GL_MESA_framebuffer_flip_y GL_MESA_pack_invert GL_MESA_shader_integer_functions GL_MESA_texture_signed_rgba GL_NVX_gpu_memory_info GL_NV_conditional_render GL_NV_conservative_raster GL_NV_conservative_raster_dilate GL_NV_copy_image GL_NV_depth_clamp GL_NV_fill_rectangle GL_NV_packed_depth_stencil GL_NV_sample_locations GL_NV_texture_barrier GL_NV_vdpau_interop GL_NV_viewport_array2 GL_NV_viewport_swizzle GL_OES_EGL_image GL_S3_s3tc
-OPENGL LOG: Creating OpenGL 4.3 graphics device ; Context level  <OpenGL 4.3> ; Context handle -115879664
+OPENGL LOG: Creating OpenGL 4.3 graphics device ; Context level  <OpenGL 4.3> ; Context handle 1957949856
 Initialize mono
 Mono path[0] = '/home/nunya/Unity/Hub/Editor/2021.3.10f1/Editor/Data/Managed'
 Mono path[1] = '/home/nunya/Unity/Hub/Editor/2021.3.10f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-linux'
 Mono config path = '/home/nunya/Unity/Hub/Editor/2021.3.10f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56311
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56854
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /home/nunya/Unity/Hub/Editor/2021.3.10f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: /home/nunya/Unity/Hub/Editor/2021.3.10f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
 Register platform support module: /home/nunya/Unity/Hub/Editor/2021.3.10f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
-Registered in 0.008948 seconds.
+Registered in 0.009173 seconds.
 Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 112.83 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 116.92 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.831 seconds
+- Completed reload, in  0.851 seconds
 Domain Reload Profiling:
-	ReloadAssembly (831ms)
+	ReloadAssembly (851ms)
 		BeginReloadAssembly (61ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (621ms)
-			LoadAssemblies (60ms)
+		EndReloadAssembly (634ms)
+			LoadAssemblies (59ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
 			SetupTypeCache (145ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (46ms)
-			SetupLoadedEditorAssemblies (367ms)
+			RebuildScriptCaches (43ms)
+			SetupLoadedEditorAssemblies (381ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (72ms)
+				InitializePlatformSupportModulesInManaged (77ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (113ms)
-				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (122ms)
-				ProcessInitializeOnLoadMethodAttributes (57ms)
+				RefreshPlugins (117ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (127ms)
+				ProcessInitializeOnLoadMethodAttributes (58ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.004136 seconds.
+Registered in 0.004305 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image /home/nunya/MarbleCalmness/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image /home/nunya/MarbleCalmness/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
 Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 111.61 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 117.17 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.678 seconds
+- Completed reload, in  1.846 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1679ms)
-		BeginReloadAssembly (261ms)
+	ReloadAssembly (1847ms)
+		BeginReloadAssembly (274ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (8ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (128ms)
-		EndReloadAssembly (1263ms)
-			LoadAssemblies (105ms)
+			CreateAndSetChildDomain (146ms)
+		EndReloadAssembly (1411ms)
+			LoadAssemblies (103ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (364ms)
+			SetupTypeCache (418ms)
 			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (84ms)
-			SetupLoadedEditorAssemblies (671ms)
+			RebuildScriptCaches (95ms)
+			SetupLoadedEditorAssemblies (742ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (20ms)
+				InitializePlatformSupportModulesInManaged (22ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (112ms)
-				BeforeProcessingInitializeOnLoad (105ms)
-				ProcessInitializeOnLoadAttributes (395ms)
-				ProcessInitializeOnLoadMethodAttributes (31ms)
-				AfterProcessingInitializeOnLoad (8ms)
+				RefreshPlugins (117ms)
+				BeforeProcessingInitializeOnLoad (121ms)
+				ProcessInitializeOnLoadAttributes (439ms)
+				ProcessInitializeOnLoadMethodAttributes (34ms)
+				AfterProcessingInitializeOnLoad (9ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (5ms)
@@ -162,12 +162,12 @@ Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler after 0.02 seconds
-Refreshing native plugins compatible for Editor in 0.81 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.79 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3887 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 43 unused Assets / (145.6 KB). Loaded Objects now: 4347.
 Memory consumption went from 132.8 MB to 132.7 MB.
-Total: 5.115026 ms (FindLiveObjects: 0.406332 ms CreateObjectMapping: 0.139121 ms MarkObjects: 4.328681 ms  DeleteObjects: 0.238898 ms)
+Total: 10.920446 ms (FindLiveObjects: 0.668274 ms CreateObjectMapping: 0.568046 ms MarkObjects: 9.292152 ms  DeleteObjects: 0.389050 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -180,817 +180,1606 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 29237.824039 seconds.
-  path: Assets/tree_large.fbx
-  artifactKey: Guid(cd794737e5399db87b194c33e70b9874) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/tree_large.fbx using Guid(cd794737e5399db87b194c33e70b9874) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39d3e7154fa5a4f04ffb6fd3692d9ddb') in 0.163002 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/split_large_solid_right.fbx
-  artifactKey: Guid(27a76768aac424df5a504c8ab15802bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/split_large_solid_right.fbx using Guid(27a76768aac424df5a504c8ab15802bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68889f152dc19664add45b92c27514bc') in 0.042044 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/tree_tall_large.fbx
-  artifactKey: Guid(85c914af474cf3ca3a3182e0b7b26a4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/tree_tall_large.fbx using Guid(85c914af474cf3ca3a3182e0b7b26a4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3dd4cd93d3be798351a63be7cc97be8') in 0.028988 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/slant_solid_B.fbx
-  artifactKey: Guid(7256001420f59f01f9d82fc5d4f088c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/slant_solid_B.fbx using Guid(7256001420f59f01f9d82fc5d4f088c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca449e5c5d3fb8439dd138d04668700b') in 0.045865 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/split_double_solid.fbx
-  artifactKey: Guid(1e416039b3c42b571a3732fcab60b1f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/split_double_solid.fbx using Guid(1e416039b3c42b571a3732fcab60b1f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba55fccf975f4670fbd0e004808f36a5') in 0.040682 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/split_solid_right.fbx
-  artifactKey: Guid(64a49d761b44528e5bcbc0a6c3038fd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/split_solid_right.fbx using Guid(64a49d761b44528e5bcbc0a6c3038fd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eaa407f7dbe0b9985b5f638ed8e3d85c') in 0.037600 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/straight_hole.fbx
-  artifactKey: Guid(6cc82f7c13e9a957e84239ff9122cd4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/straight_hole.fbx using Guid(6cc82f7c13e9a957e84239ff9122cd4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1d3224d0cde6e1d4e7eea6e0273b579') in 0.039009 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/s-curve_short_left_C.fbx
-  artifactKey: Guid(4ea433e76f76fec2fa97065bb81657e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/s-curve_short_left_C.fbx using Guid(4ea433e76f76fec2fa97065bb81657e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6a4f8cdfe101c6c66a6019714f4ca69') in 0.038479 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000041 seconds.
-  path: Assets/support_base.fbx
-  artifactKey: Guid(3a5a8b32860aaa3209a08927beab4ce2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/support_base.fbx using Guid(3a5a8b32860aaa3209a08927beab4ce2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2dc3826b73c7fef37360814a2e3a3534') in 0.029659 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/straight_wide.fbx
-  artifactKey: Guid(8fe1b17fc3d71d65cb490003fc4b9857) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/straight_wide.fbx using Guid(8fe1b17fc3d71d65cb490003fc4b9857) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '317ec973ea8d5f470fe64853ee4091a6') in 0.036948 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/slant_A.fbx
-  artifactKey: Guid(08a316ffc062881c2a169d4a2c34d861) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/slant_A.fbx using Guid(08a316ffc062881c2a169d4a2c34d861) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b81464822dd3e1460a412b72da322cd') in 0.041941 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/wave_solid_C.fbx
-  artifactKey: Guid(147ecf4cdfacaeba9b58910788306625) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/wave_solid_C.fbx using Guid(147ecf4cdfacaeba9b58910788306625) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9e683fe496ce669e957c343b969fb00') in 0.040341 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/slant_D.fbx
-  artifactKey: Guid(8bd2488819cf234eabc3320fbf94e29a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/slant_D.fbx using Guid(8bd2488819cf234eabc3320fbf94e29a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e92a9fec0a827762d61c9b4c7294fb27') in 0.036381 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/split_double.fbx
-  artifactKey: Guid(c40b4f05d62b56687bf811f7dcd26731) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/split_double.fbx using Guid(c40b4f05d62b56687bf811f7dcd26731) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '222ea6d570fb8530222b0be9c897ba66') in 0.035875 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/split_large_right.fbx
-  artifactKey: Guid(a921389ba84ce5d089dbe9b3f0eb3f50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/split_large_right.fbx using Guid(a921389ba84ce5d089dbe9b3f0eb3f50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37a6b44631b1865cc69185adb4348c96') in 0.040546 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/slant_solid_long_B.fbx
-  artifactKey: Guid(078fa3bdb64139888ae60e34ac3da765) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/slant_solid_long_B.fbx using Guid(078fa3bdb64139888ae60e34ac3da765) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2d43e6db2eb984013766ad57c60ab7f') in 0.042076 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/split_double_sides.fbx
-  artifactKey: Guid(f3985f6e659b8ad43ade13ebde7ab8c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/split_double_sides.fbx using Guid(f3985f6e659b8ad43ade13ebde7ab8c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06fa354a831adffc68af425cfc407e35') in 0.036038 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/slant_B.fbx
-  artifactKey: Guid(9aecec0eafc26f067b1894f0fc046a37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/slant_B.fbx using Guid(9aecec0eafc26f067b1894f0fc046a37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abd8e6c6f9cf963c0b124971e5b87771') in 0.034056 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/wave_C.fbx
-  artifactKey: Guid(e4717d11f630b924eb1dd18394ec2e5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/wave_C.fbx using Guid(e4717d11f630b924eb1dd18394ec2e5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf5bb5a6237ace750a85daa1b1c0702c') in 0.036259 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/split_double_sides_solid.fbx
-  artifactKey: Guid(2396d7652a8071e56baaa7f6bfcdf8e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/split_double_sides_solid.fbx using Guid(2396d7652a8071e56baaa7f6bfcdf8e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b323614b156c91084111a0535abcd540') in 0.040288 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000039 seconds.
-  path: Assets/wave_solid_B.fbx
-  artifactKey: Guid(35b03d9df643adebb8a2c7a372de4358) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/wave_solid_B.fbx using Guid(35b03d9df643adebb8a2c7a372de4358) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5487da698a38571be4990398d1264de') in 0.037131 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000048 seconds.
-  path: Assets/wave_B.fbx
-  artifactKey: Guid(7ab740b821997dfe4a609c23e9a96a9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/wave_B.fbx using Guid(7ab740b821997dfe4a609c23e9a96a9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd274ce112bc8234345e2ec304ce2d166') in 0.045470 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/s-curve_short_left_B.fbx
-  artifactKey: Guid(93ae541387c6de939854e3b68f079306) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/s-curve_short_left_B.fbx using Guid(93ae541387c6de939854e3b68f079306) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f2ce30651c2f45d5356e2c417af53f9') in 0.036330 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/tree.fbx
-  artifactKey: Guid(d2797b8c3b7c86eb4a6961c0fe66e070) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/tree.fbx using Guid(d2797b8c3b7c86eb4a6961c0fe66e070) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02ef6994a04406612563f50f282f9402') in 0.027842 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/slant_solid_long_A.fbx
-  artifactKey: Guid(bacc900417581dfd283c6adf4ea1855d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/slant_solid_long_A.fbx using Guid(bacc900417581dfd283c6adf4ea1855d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6addf3a29d2fdc17a7a162d46273a1e9') in 0.037823 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/slan_long_D.fbx
-  artifactKey: Guid(bcc65faf4b4727da4bbcf6b1ba883aea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/slan_long_D.fbx using Guid(bcc65faf4b4727da4bbcf6b1ba883aea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd940c13ecd4b16d4e5797d37d1079531') in 0.039544 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/tree_tall.fbx
-  artifactKey: Guid(42504909b073097d7af4cc0c00d1ccac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/tree_tall.fbx using Guid(42504909b073097d7af4cc0c00d1ccac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4595600e8b103000ee4fb4ec5b601b61') in 0.032054 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/slant_solid_A.fbx
-  artifactKey: Guid(da185531f926cb2b59f39b58fbbc7eef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/slant_solid_A.fbx using Guid(da185531f926cb2b59f39b58fbbc7eef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34765ef382962a7684aa077b9361cc72') in 0.035574 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/split.fbx
-  artifactKey: Guid(4014e9c207fcc3036b01e098ef65cbe8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/split.fbx using Guid(4014e9c207fcc3036b01e098ef65cbe8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f1cbc61e51559e4a4d735827dceb037') in 0.039897 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000040 seconds.
-  path: Assets/split_right.fbx
-  artifactKey: Guid(2d5cbfe5545c998fb871958c857586df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/split_right.fbx using Guid(2d5cbfe5545c998fb871958c857586df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '427299671f7da318a555f794b9102109') in 0.040144 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/slant_solid_D.fbx
-  artifactKey: Guid(bc0a525dddee1301180075a928002d8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/slant_solid_D.fbx using Guid(bc0a525dddee1301180075a928002d8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18a01da8c54d3d942e9921da85a4fd94') in 0.041436 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/support.fbx
-  artifactKey: Guid(c174b258fab6f4b708dc90f169e047cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/support.fbx using Guid(c174b258fab6f4b708dc90f169e047cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d8ec33173d03fa68dad98859562e6f5') in 0.025598 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/slant_solid_C.fbx
-  artifactKey: Guid(6a863eed73d38340a90d86ccd3c56401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/slant_solid_C.fbx using Guid(6a863eed73d38340a90d86ccd3c56401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6479aa3d7c1fb56b64f269b2a97d412') in 0.037889 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/slant_long_C.fbx
-  artifactKey: Guid(f23a06401f1274894a959fdfc112d221) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/slant_long_C.fbx using Guid(f23a06401f1274894a959fdfc112d221) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82a33de3fe569050270d3a3d3af530f9') in 0.037391 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/split_solid_left.fbx
-  artifactKey: Guid(278cd3d7d7998bb4e8e395b4ae27434f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/split_solid_left.fbx using Guid(278cd3d7d7998bb4e8e395b4ae27434f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af3c8814148ac090b9caccb54fc84c90') in 0.031968 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/split_large_solid_left.fbx
-  artifactKey: Guid(9eb6544af7194cf52a59871948243e90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/split_large_solid_left.fbx using Guid(9eb6544af7194cf52a59871948243e90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf1d235038a43482620d8baa21844cca') in 0.031319 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/straight_wide_hole.fbx
-  artifactKey: Guid(8588a4a50b62fa78d83ea33b9661d2b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/straight_wide_hole.fbx using Guid(8588a4a50b62fa78d83ea33b9661d2b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '002d85d6a1c51b78283c7956a0a86955') in 0.038442 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/slant_C.fbx
-  artifactKey: Guid(4937b85e3220bc434b97cc77a3fed263) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/slant_C.fbx using Guid(4937b85e3220bc434b97cc77a3fed263) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c00615cc6557fcd86ce2d2a536e10f92') in 0.038791 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/slant_long_B.fbx
-  artifactKey: Guid(a9d94833b6160bf1da8da13bb948f131) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/slant_long_B.fbx using Guid(a9d94833b6160bf1da8da13bb948f131) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e58b9fc795aa79e7647d094b4c4a79d') in 0.031103 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/straight.fbx
-  artifactKey: Guid(fb6ced099d81c125bbfeafd586d4f71a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/straight.fbx using Guid(fb6ced099d81c125bbfeafd586d4f71a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62cdcf0bcc8f2728f1072c719f1913c2') in 0.031836 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/slant_long_A.fbx
-  artifactKey: Guid(b885e60036afbc37c8cd6ea9a3f3c514) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/slant_long_A.fbx using Guid(b885e60036afbc37c8cd6ea9a3f3c514) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea1d30f91d2591742a29f6661d1735ec') in 0.033033 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/split_left.fbx
-  artifactKey: Guid(7edd0be8787f87160ad3b19e5057ca65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/split_left.fbx using Guid(7edd0be8787f87160ad3b19e5057ca65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18cd73f1cb21f52b317ff36814e40def') in 0.036911 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/slant_solid_long_C.fbx
-  artifactKey: Guid(d085f8a5b7f2faa48ab9c7a0e6df81a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/slant_solid_long_C.fbx using Guid(d085f8a5b7f2faa48ab9c7a0e6df81a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe4c0def06e3ea14b7a718c7d9ea47a5') in 0.036815 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/split_large_left.fbx
-  artifactKey: Guid(4a8a91c3888ed2bd7b6374f03bfce284) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/split_large_left.fbx using Guid(4a8a91c3888ed2bd7b6374f03bfce284) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29db3b3e92b44aa47cdd3822f5256810') in 0.038576 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/tunnel.fbx
-  artifactKey: Guid(be0c3f255a2bdb00a9c064e4a5b0e2bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/tunnel.fbx using Guid(be0c3f255a2bdb00a9c064e4a5b0e2bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ca3ad64de2166773969c9c71074ff21') in 0.033719 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/slant_solid_long_D.fbx
-  artifactKey: Guid(013977aa2d5a099939ac9d77b4ab76a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/slant_solid_long_D.fbx using Guid(013977aa2d5a099939ac9d77b4ab76a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d07104259a8f2e8d36fa2cde1602b19') in 0.033153 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/wave_solid_A.fbx
-  artifactKey: Guid(cd2d62c1c4a2c36849b8a7054d79943f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/wave_solid_A.fbx using Guid(cd2d62c1c4a2c36849b8a7054d79943f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03b698c89af47cb25aaa9cd046fc3563') in 0.036705 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/wave_A.fbx
-  artifactKey: Guid(c4c7617119cc3dafd892b848d16945f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/wave_A.fbx using Guid(c4c7617119cc3dafd892b848d16945f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06ccdd24d091031f9f1e3662235a644f') in 0.044996 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 24.245025 seconds.
-  path: Assets/rampEnd_solid_D.fbx
-  artifactKey: Guid(09bdccd20568ef79bbaf10c15865c9f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/rampEnd_solid_D.fbx using Guid(09bdccd20568ef79bbaf10c15865c9f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f134090521cb7a30e3587edaedabdda') in 0.049855 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000044 seconds.
-  path: Assets/rampStart_solid_C.fbx
-  artifactKey: Guid(e7918981af6342337b0d488c34ccf399) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/rampStart_solid_C.fbx using Guid(e7918981af6342337b0d488c34ccf399) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12a1ba7064527aeacd39ee58f4972af7') in 0.043524 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000038 seconds.
-  path: Assets/ramp_long_solid_B.fbx
-  artifactKey: Guid(40300c29c479dd0a2b196c3437728d3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ramp_long_solid_B.fbx using Guid(40300c29c479dd0a2b196c3437728d3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b2ba64f356de1232b5d63a62bfad2da') in 0.039868 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/s-curve_right_large.fbx
-  artifactKey: Guid(ec93b879e72413d5aace303a3ddec920) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/s-curve_right_large.fbx using Guid(ec93b879e72413d5aace303a3ddec920) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2faecec819f64d0c4953548ffe5846f') in 0.039520 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/rampEnd_solid_B.fbx
-  artifactKey: Guid(3c836ecd37c732781977ba52461acd7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/rampEnd_solid_B.fbx using Guid(3c836ecd37c732781977ba52461acd7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f363d22949d0cf8f23868120fb3d87f9') in 0.039414 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/s-curve_right.fbx
-  artifactKey: Guid(666f2ec2859dabc1b91b24be2fbb1eca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/s-curve_right.fbx using Guid(666f2ec2859dabc1b91b24be2fbb1eca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a88285063b890a7cfdff204967c0678') in 0.036977 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/rampEnd_A.fbx
-  artifactKey: Guid(b32557c4155f0ce798d1a1efcbc3fdad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/rampEnd_A.fbx using Guid(b32557c4155f0ce798d1a1efcbc3fdad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3cebbfe08bae570427d1deefd4a9fe1f') in 0.038945 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/ramp_long_C.fbx
-  artifactKey: Guid(99114e9917a179072b0d3506fff00269) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ramp_long_C.fbx using Guid(99114e9917a179072b0d3506fff00269) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2de991122915b43e5fd0e2f10b60b654') in 0.041608 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000042 seconds.
-  path: Assets/rampStart_C.fbx
-  artifactKey: Guid(db2e0700ba0ee44b3a706382221eab02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/rampStart_C.fbx using Guid(db2e0700ba0ee44b3a706382221eab02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '346f9cf44f7c2da6d41ba04c60a9ee06') in 0.043493 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/helix_left.fbx
-  artifactKey: Guid(0fa562cceb0040fc881836ce9a51f6cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/helix_left.fbx using Guid(0fa562cceb0040fc881836ce9a51f6cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d276a0ebf7b8957ac7e3de527bfaaa9') in 0.037198 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/helix_quarter_left.fbx
-  artifactKey: Guid(e0520622c00de8dc4b7611d32aff7799) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/helix_quarter_left.fbx using Guid(e0520622c00de8dc4b7611d32aff7799) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '162919d1be4c3be44b2cabea939938eb') in 0.039327 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/marble_center_high.fbx
-  artifactKey: Guid(5aa3a7815deb50a5d8adb021bbc5076e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/marble_center_high.fbx using Guid(5aa3a7815deb50a5d8adb021bbc5076e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de6f6374a1cdc1d7368fc6a36a89d58b') in 0.043783 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/marble_center_butterfly_low.fbx
-  artifactKey: Guid(dc641c155c29bae11b1ad452c3be6d34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/marble_center_butterfly_low.fbx using Guid(dc641c155c29bae11b1ad452c3be6d34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6567e6446242f19ed704630cc0c7d435') in 0.041209 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/marble_high.fbx
-  artifactKey: Guid(0017298e4f4172027b6d7ef285297acc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/marble_high.fbx using Guid(0017298e4f4172027b6d7ef285297acc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eda83b7122b1483c5d26bf79c673abfb') in 0.032136 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/marble_center_butterfly_high.fbx
-  artifactKey: Guid(167225e9bc3ab329c8d81b7b75b07ae5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/marble_center_butterfly_high.fbx using Guid(167225e9bc3ab329c8d81b7b75b07ae5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca125a20bc7c01c37f45e9020bfa5f0e') in 0.047366 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/helix_large_quarter_right.fbx
-  artifactKey: Guid(34b33e2c364e97e4ba75a07fb258d08f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/helix_large_quarter_right.fbx using Guid(34b33e2c364e97e4ba75a07fb258d08f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b881ac8f33087457526abc263413f9ea') in 0.041094 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/end_hole_square.fbx
-  artifactKey: Guid(4b26b7867920dd7639f97aaf5402b7e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/end_hole_square.fbx using Guid(4b26b7867920dd7639f97aaf5402b7e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad07cd35d53f41cb90e7b356fc4c49d3') in 0.042642 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/helix_large_quarter_left.fbx
-  artifactKey: Guid(c4784069da9bbd157b8cb87e5ecef607) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/helix_large_quarter_left.fbx using Guid(c4784069da9bbd157b8cb87e5ecef607) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bc21ed4a175796b6d04dce774f52d70') in 0.037089 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000042 seconds.
-  path: Assets/curve_large.fbx
-  artifactKey: Guid(b5d7073b67faddd7d897c8ff20daa449) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/curve_large.fbx using Guid(b5d7073b67faddd7d897c8ff20daa449) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1c4140923b041d2b36c37940d9ec485') in 0.035967 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/helix_large_half_right.fbx
-  artifactKey: Guid(f175d535dacea44be88ad7327aa68695) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/helix_large_half_right.fbx using Guid(f175d535dacea44be88ad7327aa68695) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'deda470179371ab811662ead88eacbf2') in 0.039178 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/marble_center_low.fbx
-  artifactKey: Guid(2cdf61f23ed12985e897304113a62f07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/marble_center_low.fbx using Guid(2cdf61f23ed12985e897304113a62f07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a594b53f1efa941424dfe19679993ccc') in 0.043418 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/ramp_long_solid_A.fbx
-  artifactKey: Guid(52da8ad29b162212f829a67b9e8596af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ramp_long_solid_A.fbx using Guid(52da8ad29b162212f829a67b9e8596af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe2679df2818187c17ac8ec82dc77135') in 0.041971 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/ramp_long_B.fbx
-  artifactKey: Guid(2b4215866523808a1881610a19ed1787) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ramp_long_B.fbx using Guid(2b4215866523808a1881610a19ed1787) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f259563056a1fa5bb58c406c5e2307e6') in 0.033045 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/corner_solid.fbx
-  artifactKey: Guid(a96c3c752625a29b1908bac952a86c9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/corner_solid.fbx using Guid(a96c3c752625a29b1908bac952a86c9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '660cb7c6425794a6cb7f5493f08dff6b') in 0.037150 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/s-curve_left_large.fbx
-  artifactKey: Guid(47f9044a0e24f7ac0b4ec2092b369fc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/s-curve_left_large.fbx using Guid(47f9044a0e24f7ac0b4ec2092b369fc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf9005ba334433032890a264169fb98d') in 0.037493 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/marble_low.fbx
-  artifactKey: Guid(db0e6c7b502ce5fa7bdeb1ebe3d9ede4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/marble_low.fbx using Guid(db0e6c7b502ce5fa7bdeb1ebe3d9ede4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe81b1de497d634c4fc93b3069b49051') in 0.028792 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/bump_solid_C.fbx
-  artifactKey: Guid(89bb5ba4f28bc2c83b5292d4f66cea7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/bump_solid_C.fbx using Guid(89bb5ba4f28bc2c83b5292d4f66cea7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68d0c80ad09cff04bb0e8a38dd6ab33f') in 0.038137 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/bump_A.fbx
-  artifactKey: Guid(ad5c221fede070c4aba0712d09105a4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/bump_A.fbx using Guid(ad5c221fede070c4aba0712d09105a4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0cb96aaae67f9cf9d2536b2bd4a9ec9a') in 0.038371 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/banner_hanging_double_high.fbx
-  artifactKey: Guid(f4cdd0447286206f5a50c33df8ecc4c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/banner_hanging_double_high.fbx using Guid(f4cdd0447286206f5a50c33df8ecc4c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81a3bb588dd115671ee2209231b1d2f1') in 0.041395 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/banner_double_high.fbx
-  artifactKey: Guid(6fafa45cdc1270151b3cb2269e89091b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/banner_double_high.fbx using Guid(6fafa45cdc1270151b3cb2269e89091b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b601a5b160ef81c74099d6c1026be0b') in 0.038314 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/banner_hanging_double.fbx
-  artifactKey: Guid(68ddb1b98e142b02aa83ad4f316cfb10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/banner_hanging_double.fbx using Guid(68ddb1b98e142b02aa83ad4f316cfb10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f510fb79c62369a9b713899358db702a') in 0.032153 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/bend_large.fbx
+  Time since last request: 94370.841296 seconds.
+  path: Assets
+  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79842766b460edbeab6a34051e857a80') in 0.013409 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.638103 seconds.
+  path: Assets/ThirdPersonCam.cs
+  artifactKey: Guid(9bb11e82e12bbe3868ae641136c3c83f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdPersonCam.cs using Guid(9bb11e82e12bbe3868ae641136c3c83f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b785af22d1a67c24f95acb5c656df477') in 0.002700 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003932 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /home/nunya/MarbleCalmness/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /home/nunya/MarbleCalmness/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 0.76 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.434 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1434ms)
+		BeginReloadAssembly (171ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (77ms)
+		EndReloadAssembly (1131ms)
+			LoadAssemblies (65ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (392ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (63ms)
+			SetupLoadedEditorAssemblies (531ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (27ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (74ms)
+				ProcessInitializeOnLoadAttributes (384ms)
+				ProcessInitializeOnLoadMethodAttributes (37ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.11 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3883 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (128.8 KB). Loaded Objects now: 4363.
+Memory consumption went from 132.6 MB to 132.5 MB.
+Total: 4.651255 ms (FindLiveObjects: 0.355808 ms CreateObjectMapping: 0.112561 ms MarkObjects: 3.900808 ms  DeleteObjects: 0.280907 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 471.729018 seconds.
+  path: Assets/ThirdPersonCam.cs
+  artifactKey: Guid(9bb11e82e12bbe3868ae641136c3c83f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdPersonCam.cs using Guid(9bb11e82e12bbe3868ae641136c3c83f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b5c05e0d8ff85830471aea6d9497e68') in 0.008720 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003870 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /home/nunya/MarbleCalmness/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /home/nunya/MarbleCalmness/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 0.78 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.358 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1359ms)
+		BeginReloadAssembly (151ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (66ms)
+		EndReloadAssembly (1079ms)
+			LoadAssemblies (57ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (350ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (62ms)
+			SetupLoadedEditorAssemblies (524ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (27ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (76ms)
+				ProcessInitializeOnLoadAttributes (372ms)
+				ProcessInitializeOnLoadMethodAttributes (39ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.11 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3883 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (128.7 KB). Loaded Objects now: 4378.
+Memory consumption went from 132.7 MB to 132.6 MB.
+Total: 8.024293 ms (FindLiveObjects: 0.354455 ms CreateObjectMapping: 0.114354 ms MarkObjects: 7.163198 ms  DeleteObjects: 0.390292 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003872 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /home/nunya/MarbleCalmness/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /home/nunya/MarbleCalmness/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 0.81 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.406 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1407ms)
+		BeginReloadAssembly (159ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (68ms)
+		EndReloadAssembly (1117ms)
+			LoadAssemblies (58ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (354ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (68ms)
+			SetupLoadedEditorAssemblies (549ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (27ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (75ms)
+				ProcessInitializeOnLoadAttributes (404ms)
+				ProcessInitializeOnLoadMethodAttributes (34ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.13 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3883 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (128.8 KB). Loaded Objects now: 4393.
+Memory consumption went from 132.7 MB to 132.6 MB.
+Total: 5.079349 ms (FindLiveObjects: 0.392516 ms CreateObjectMapping: 0.137889 ms MarkObjects: 4.231889 ms  DeleteObjects: 0.315612 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003843 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /home/nunya/MarbleCalmness/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /home/nunya/MarbleCalmness/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 0.80 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.351 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1352ms)
+		BeginReloadAssembly (155ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (69ms)
+		EndReloadAssembly (1068ms)
+			LoadAssemblies (57ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (348ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (71ms)
+			SetupLoadedEditorAssemblies (509ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (27ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (73ms)
+				ProcessInitializeOnLoadAttributes (364ms)
+				ProcessInitializeOnLoadMethodAttributes (34ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.99 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3883 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (128.6 KB). Loaded Objects now: 4408.
+Memory consumption went from 132.7 MB to 132.6 MB.
+Total: 4.757455 ms (FindLiveObjects: 0.372869 ms CreateObjectMapping: 0.120236 ms MarkObjects: 3.879528 ms  DeleteObjects: 0.383039 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003769 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /home/nunya/MarbleCalmness/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /home/nunya/MarbleCalmness/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 0.80 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.421 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1422ms)
+		BeginReloadAssembly (130ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (43ms)
+		EndReloadAssembly (1155ms)
+			LoadAssemblies (60ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (379ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (67ms)
+			SetupLoadedEditorAssemblies (556ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (28ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (80ms)
+				ProcessInitializeOnLoadAttributes (395ms)
+				ProcessInitializeOnLoadMethodAttributes (39ms)
+				AfterProcessingInitializeOnLoad (11ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.97 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3883 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (128.8 KB). Loaded Objects now: 4423.
+Memory consumption went from 132.8 MB to 132.6 MB.
+Total: 6.540600 ms (FindLiveObjects: 0.524784 ms CreateObjectMapping: 0.314239 ms MarkObjects: 5.231615 ms  DeleteObjects: 0.467798 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005425 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /home/nunya/MarbleCalmness/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /home/nunya/MarbleCalmness/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 0.80 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.377 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1378ms)
+		BeginReloadAssembly (153ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (65ms)
+		EndReloadAssembly (1091ms)
+			LoadAssemblies (59ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (352ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (62ms)
+			SetupLoadedEditorAssemblies (520ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (43ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (74ms)
+				ProcessInitializeOnLoadAttributes (361ms)
+				ProcessInitializeOnLoadMethodAttributes (33ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.98 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3883 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (128.8 KB). Loaded Objects now: 4438.
+Memory consumption went from 132.8 MB to 132.7 MB.
+Total: 5.051166 ms (FindLiveObjects: 0.364935 ms CreateObjectMapping: 0.127579 ms MarkObjects: 4.150907 ms  DeleteObjects: 0.406303 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004152 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /home/nunya/MarbleCalmness/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /home/nunya/MarbleCalmness/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 0.81 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.401 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1402ms)
+		BeginReloadAssembly (161ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (73ms)
+		EndReloadAssembly (1109ms)
+			LoadAssemblies (58ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (362ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (63ms)
+			SetupLoadedEditorAssemblies (542ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (28ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (78ms)
+				ProcessInitializeOnLoadAttributes (392ms)
+				ProcessInitializeOnLoadMethodAttributes (35ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.98 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3883 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (128.7 KB). Loaded Objects now: 4453.
+Memory consumption went from 132.8 MB to 132.7 MB.
+Total: 4.959594 ms (FindLiveObjects: 0.361849 ms CreateObjectMapping: 0.148639 ms MarkObjects: 4.042995 ms  DeleteObjects: 0.404068 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005224 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /home/nunya/MarbleCalmness/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /home/nunya/MarbleCalmness/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 0.86 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.395 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1396ms)
+		BeginReloadAssembly (146ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (59ms)
+		EndReloadAssembly (1119ms)
+			LoadAssemblies (63ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (361ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (67ms)
+			SetupLoadedEditorAssemblies (540ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (27ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (76ms)
+				ProcessInitializeOnLoadAttributes (388ms)
+				ProcessInitializeOnLoadMethodAttributes (38ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.28 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3883 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (128.7 KB). Loaded Objects now: 4468.
+Memory consumption went from 132.8 MB to 132.7 MB.
+Total: 5.894668 ms (FindLiveObjects: 0.429626 ms CreateObjectMapping: 0.112290 ms MarkObjects: 4.793563 ms  DeleteObjects: 0.556635 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003783 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /home/nunya/MarbleCalmness/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /home/nunya/MarbleCalmness/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 0.78 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.390 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1391ms)
+		BeginReloadAssembly (158ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (71ms)
+		EndReloadAssembly (1100ms)
+			LoadAssemblies (59ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (352ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (68ms)
+			SetupLoadedEditorAssemblies (534ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (27ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (75ms)
+				ProcessInitializeOnLoadAttributes (388ms)
+				ProcessInitializeOnLoadMethodAttributes (34ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.99 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3883 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (128.7 KB). Loaded Objects now: 4483.
+Memory consumption went from 132.8 MB to 132.7 MB.
+Total: 4.925430 ms (FindLiveObjects: 0.388469 ms CreateObjectMapping: 0.112652 ms MarkObjects: 4.015072 ms  DeleteObjects: 0.407575 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003939 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /home/nunya/MarbleCalmness/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /home/nunya/MarbleCalmness/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 0.83 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.383 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1383ms)
+		BeginReloadAssembly (158ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (70ms)
+		EndReloadAssembly (1093ms)
+			LoadAssemblies (58ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (362ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (64ms)
+			SetupLoadedEditorAssemblies (523ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (28ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (76ms)
+				ProcessInitializeOnLoadAttributes (375ms)
+				ProcessInitializeOnLoadMethodAttributes (35ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.48 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3883 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (128.7 KB). Loaded Objects now: 4498.
+Memory consumption went from 132.8 MB to 132.7 MB.
+Total: 5.147237 ms (FindLiveObjects: 0.364413 ms CreateObjectMapping: 0.111680 ms MarkObjects: 4.227741 ms  DeleteObjects: 0.441558 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005413 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /home/nunya/MarbleCalmness/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /home/nunya/MarbleCalmness/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 0.82 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.389 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1390ms)
+		BeginReloadAssembly (159ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (71ms)
+		EndReloadAssembly (1093ms)
+			LoadAssemblies (60ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (360ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (65ms)
+			SetupLoadedEditorAssemblies (523ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (34ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (75ms)
+				ProcessInitializeOnLoadAttributes (369ms)
+				ProcessInitializeOnLoadMethodAttributes (35ms)
+				AfterProcessingInitializeOnLoad (9ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.05 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3883 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (128.7 KB). Loaded Objects now: 4513.
+Memory consumption went from 132.9 MB to 132.7 MB.
+Total: 5.287459 ms (FindLiveObjects: 0.472326 ms CreateObjectMapping: 0.128982 ms MarkObjects: 4.253359 ms  DeleteObjects: 0.430298 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003854 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /home/nunya/MarbleCalmness/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /home/nunya/MarbleCalmness/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 0.95 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.410 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1410ms)
+		BeginReloadAssembly (137ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (50ms)
+		EndReloadAssembly (1141ms)
+			LoadAssemblies (60ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (361ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (64ms)
+			SetupLoadedEditorAssemblies (571ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (27ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (80ms)
+				ProcessInitializeOnLoadAttributes (419ms)
+				ProcessInitializeOnLoadMethodAttributes (36ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 3.03 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3883 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (128.7 KB). Loaded Objects now: 4528.
+Memory consumption went from 132.9 MB to 132.7 MB.
+Total: 5.032451 ms (FindLiveObjects: 0.435617 ms CreateObjectMapping: 0.113413 ms MarkObjects: 4.036803 ms  DeleteObjects: 0.444694 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004040 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /home/nunya/MarbleCalmness/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /home/nunya/MarbleCalmness/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 0.82 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.356 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1356ms)
+		BeginReloadAssembly (134ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (46ms)
+		EndReloadAssembly (1088ms)
+			LoadAssemblies (60ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (361ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (64ms)
+			SetupLoadedEditorAssemblies (514ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (28ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (77ms)
+				ProcessInitializeOnLoadAttributes (365ms)
+				ProcessInitializeOnLoadMethodAttributes (35ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.87 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3883 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (128.7 KB). Loaded Objects now: 4543.
+Memory consumption went from 132.9 MB to 132.8 MB.
+Total: 4.982206 ms (FindLiveObjects: 0.378330 ms CreateObjectMapping: 0.121849 ms MarkObjects: 4.040309 ms  DeleteObjects: 0.440006 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003962 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /home/nunya/MarbleCalmness/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /home/nunya/MarbleCalmness/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 0.82 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.361 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1362ms)
+		BeginReloadAssembly (141ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (53ms)
+		EndReloadAssembly (1089ms)
+			LoadAssemblies (58ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (361ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (64ms)
+			SetupLoadedEditorAssemblies (516ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (27ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (84ms)
+				ProcessInitializeOnLoadAttributes (361ms)
+				ProcessInitializeOnLoadMethodAttributes (34ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.00 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3883 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (128.7 KB). Loaded Objects now: 4558.
+Memory consumption went from 132.9 MB to 132.8 MB.
+Total: 5.863099 ms (FindLiveObjects: 0.391996 ms CreateObjectMapping: 0.111779 ms MarkObjects: 4.932734 ms  DeleteObjects: 0.424998 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004143 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /home/nunya/MarbleCalmness/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /home/nunya/MarbleCalmness/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 0.78 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.394 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1394ms)
+		BeginReloadAssembly (141ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (53ms)
+		EndReloadAssembly (1118ms)
+			LoadAssemblies (60ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (364ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (86ms)
+			SetupLoadedEditorAssemblies (524ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (27ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (73ms)
+				ProcessInitializeOnLoadAttributes (377ms)
+				ProcessInitializeOnLoadMethodAttributes (37ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.02 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3883 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (128.9 KB). Loaded Objects now: 4573.
+Memory consumption went from 132.9 MB to 132.8 MB.
+Total: 4.978049 ms (FindLiveObjects: 0.440607 ms CreateObjectMapping: 0.122710 ms MarkObjects: 3.964768 ms  DeleteObjects: 0.448411 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004043 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /home/nunya/MarbleCalmness/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /home/nunya/MarbleCalmness/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 0.83 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.375 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1376ms)
+		BeginReloadAssembly (137ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (50ms)
+		EndReloadAssembly (1106ms)
+			LoadAssemblies (59ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (370ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (65ms)
+			SetupLoadedEditorAssemblies (526ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (28ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (76ms)
+				ProcessInitializeOnLoadAttributes (377ms)
+				ProcessInitializeOnLoadMethodAttributes (36ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.00 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3883 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (128.7 KB). Loaded Objects now: 4588.
+Memory consumption went from 132.9 MB to 132.8 MB.
+Total: 5.271268 ms (FindLiveObjects: 0.377338 ms CreateObjectMapping: 0.127559 ms MarkObjects: 4.269279 ms  DeleteObjects: 0.495750 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005487 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /home/nunya/MarbleCalmness/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /home/nunya/MarbleCalmness/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 0.81 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.394 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1394ms)
+		BeginReloadAssembly (142ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (55ms)
+		EndReloadAssembly (1121ms)
+			LoadAssemblies (58ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (363ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (65ms)
+			SetupLoadedEditorAssemblies (550ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (28ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (74ms)
+				ProcessInitializeOnLoadAttributes (405ms)
+				ProcessInitializeOnLoadMethodAttributes (35ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.09 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3883 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (128.8 KB). Loaded Objects now: 4603.
+Memory consumption went from 132.9 MB to 132.8 MB.
+Total: 4.898259 ms (FindLiveObjects: 0.369804 ms CreateObjectMapping: 0.114755 ms MarkObjects: 3.960079 ms  DeleteObjects: 0.452299 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 10325.328878 seconds.
+  path: Assets/ThirdPersonCam.cs
+  artifactKey: Guid(9bb11e82e12bbe3868ae641136c3c83f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdPersonCam.cs using Guid(9bb11e82e12bbe3868ae641136c3c83f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f8fd4f1838793a7c3f92e2a2fc0e59f') in 0.011906 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 17.369326 seconds.
+  path: Assets/MarbleController.prefab
+  artifactKey: Guid(a89ad5bc9f6694bda86eb3dea06b4278) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MarbleController.prefab using Guid(a89ad5bc9f6694bda86eb3dea06b4278) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '992bdea913d35277125717c3186c2cc0') in 0.146312 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 24.135264 seconds.
+  path: Assets/scripts
+  artifactKey: Guid(9195ccdb279be3dc684d55d6d32c8c11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts using Guid(9195ccdb279be3dc684d55d6d32c8c11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '746ed9810586a79a78ebf8203e4fe21a') in 0.001491 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003905 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /home/nunya/MarbleCalmness/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /home/nunya/MarbleCalmness/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 0.81 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.393 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1394ms)
+		BeginReloadAssembly (138ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (53ms)
+		EndReloadAssembly (1114ms)
+			LoadAssemblies (58ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (386ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (68ms)
+			SetupLoadedEditorAssemblies (517ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (28ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (75ms)
+				ProcessInitializeOnLoadAttributes (367ms)
+				ProcessInitializeOnLoadMethodAttributes (38ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.90 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3883 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (128.8 KB). Loaded Objects now: 4627.
+Memory consumption went from 135.2 MB to 135.0 MB.
+Total: 5.711775 ms (FindLiveObjects: 0.552747 ms CreateObjectMapping: 0.246593 ms MarkObjects: 4.628413 ms  DeleteObjects: 0.281758 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 41.721452 seconds.
+  path: Assets/prefabs
+  artifactKey: Guid(ff47ed25f641267aa8cc8e55ca38e8dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs using Guid(ff47ed25f641267aa8cc8e55ca38e8dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '169b54919ad63e97152ff5af95454177') in 0.011950 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003855 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /home/nunya/MarbleCalmness/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /home/nunya/MarbleCalmness/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 0.88 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.480 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1480ms)
+		BeginReloadAssembly (145ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (55ms)
+		EndReloadAssembly (1193ms)
+			LoadAssemblies (62ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (411ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (77ms)
+			SetupLoadedEditorAssemblies (542ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (32ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (80ms)
+				ProcessInitializeOnLoadAttributes (385ms)
+				ProcessInitializeOnLoadMethodAttributes (36ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.03 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3883 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (128.8 KB). Loaded Objects now: 4642.
+Memory consumption went from 135.2 MB to 135.0 MB.
+Total: 5.006913 ms (FindLiveObjects: 0.382979 ms CreateObjectMapping: 0.121077 ms MarkObjects: 4.166937 ms  DeleteObjects: 0.334207 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 51.835345 seconds.
+  path: Assets/prefabs/terrain with colliders
+  artifactKey: Guid(94aeceecb10d9464aa1dfee26d225ef5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/terrain with colliders using Guid(94aeceecb10d9464aa1dfee26d225ef5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0613db3e468c8d308c16deee0a813daf') in 0.010254 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 25.535847 seconds.
+  path: Assets/prefabs/bend_large.fbx
   artifactKey: Guid(dde0eea785ea2b4d2aae1933534f5424) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/bend_large.fbx using Guid(dde0eea785ea2b4d2aae1933534f5424) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f04f8e5d34c6378cb0f818f67724ae17') in 0.034466 seconds 
+Start importing Assets/prefabs/bend_large.fbx using Guid(dde0eea785ea2b4d2aae1933534f5424) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b52e8346bd94fe373ec22a63f25b1581') in 0.206609 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004065 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /home/nunya/MarbleCalmness/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /home/nunya/MarbleCalmness/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 1.41 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.410 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1411ms)
+		BeginReloadAssembly (146ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (56ms)
+		EndReloadAssembly (1128ms)
+			LoadAssemblies (60ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (369ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (66ms)
+			SetupLoadedEditorAssemblies (543ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (30ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (100ms)
+				ProcessInitializeOnLoadAttributes (369ms)
+				ProcessInitializeOnLoadMethodAttributes (34ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.81 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3883 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (128.8 KB). Loaded Objects now: 4693.
+Memory consumption went from 135.5 MB to 135.4 MB.
+Total: 9.456620 ms (FindLiveObjects: 0.564319 ms CreateObjectMapping: 0.269355 ms MarkObjects: 8.154778 ms  DeleteObjects: 0.465654 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/bend.fbx
-  artifactKey: Guid(f9b6bbb95857e5d56ba259e489d794a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/bend.fbx using Guid(f9b6bbb95857e5d56ba259e489d794a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30949e348aa27b6714a992a89c28d26f') in 0.040999 seconds 
+  Time since last request: 33.981558 seconds.
+  path: Assets/material
+  artifactKey: Guid(190fcb0c785fed1d79bd4ab809d782de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/material using Guid(190fcb0c785fed1d79bd4ab809d782de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f01e1222fca8686a505bbd0f072a604a') in 0.012134 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004375 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /home/nunya/MarbleCalmness/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /home/nunya/MarbleCalmness/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 1.35 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.404 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1405ms)
+		BeginReloadAssembly (144ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (56ms)
+		EndReloadAssembly (1124ms)
+			LoadAssemblies (59ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (373ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (67ms)
+			SetupLoadedEditorAssemblies (539ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (34ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (88ms)
+				ProcessInitializeOnLoadAttributes (371ms)
+				ProcessInitializeOnLoadMethodAttributes (36ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.01 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3883 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (128.8 KB). Loaded Objects now: 4708.
+Memory consumption went from 135.5 MB to 135.4 MB.
+Total: 5.531998 ms (FindLiveObjects: 0.415719 ms CreateObjectMapping: 0.113783 ms MarkObjects: 4.564303 ms  DeleteObjects: 0.436208 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/bump_B.fbx
-  artifactKey: Guid(bc20e43328b8b474b8b136d26b63631d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/bump_B.fbx using Guid(bc20e43328b8b474b8b136d26b63631d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '398482dd869e12ad3ede6bfd3c2e834b') in 0.033454 seconds 
+  Time since last request: 231.765988 seconds.
+  path: Assets/scripts/BasicForceMovement.cs
+  artifactKey: Guid(fc4fb668e08df4aaab9246c623048f79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/BasicForceMovement.cs using Guid(fc4fb668e08df4aaab9246c623048f79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cea9d575e1c5caf7f2c3385110b37256') in 0.011055 seconds 
 ========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/bump_C.fbx
-  artifactKey: Guid(10e2d229d50b12981b95facb49b4c4cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/bump_C.fbx using Guid(10e2d229d50b12981b95facb49b4c4cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f8fe8583285fef5a13add0e250cf8cf') in 0.045070 seconds 
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005538 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /home/nunya/MarbleCalmness/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /home/nunya/MarbleCalmness/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 0.84 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.481 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1482ms)
+		BeginReloadAssembly (167ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (73ms)
+		EndReloadAssembly (1170ms)
+			LoadAssemblies (65ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (405ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (72ms)
+			SetupLoadedEditorAssemblies (532ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (29ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (80ms)
+				ProcessInitializeOnLoadAttributes (378ms)
+				ProcessInitializeOnLoadMethodAttributes (36ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.00 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3883 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (128.9 KB). Loaded Objects now: 4723.
+Memory consumption went from 135.6 MB to 135.4 MB.
+Total: 5.265638 ms (FindLiveObjects: 0.417213 ms CreateObjectMapping: 0.125485 ms MarkObjects: 4.323852 ms  DeleteObjects: 0.397646 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/curve.fbx
-  artifactKey: Guid(38b048514e78c5a2a8a51088816ad968) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/curve.fbx using Guid(38b048514e78c5a2a8a51088816ad968) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9468470e8203c2af70240d39520e3698') in 0.046661 seconds 
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003804 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /home/nunya/MarbleCalmness/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /home/nunya/MarbleCalmness/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 0.89 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.406 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1407ms)
+		BeginReloadAssembly (164ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (75ms)
+		EndReloadAssembly (1108ms)
+			LoadAssemblies (60ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (370ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (66ms)
+			SetupLoadedEditorAssemblies (525ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (28ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (77ms)
+				ProcessInitializeOnLoadAttributes (376ms)
+				ProcessInitializeOnLoadMethodAttributes (35ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.99 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3883 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (128.8 KB). Loaded Objects now: 4738.
+Memory consumption went from 135.6 MB to 135.4 MB.
+Total: 5.097182 ms (FindLiveObjects: 0.399380 ms CreateObjectMapping: 0.128250 ms MarkObjects: 4.157870 ms  DeleteObjects: 0.409799 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/rampStart_solid_D.fbx
-  artifactKey: Guid(3f564b149d8153350af7eddbcc1e4ead) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/rampStart_solid_D.fbx using Guid(3f564b149d8153350af7eddbcc1e4ead) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '456352f9a99902bd543f545c0a74f1e5') in 0.041131 seconds 
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003896 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /home/nunya/MarbleCalmness/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /home/nunya/MarbleCalmness/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 0.84 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.408 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1409ms)
+		BeginReloadAssembly (174ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (74ms)
+		EndReloadAssembly (1103ms)
+			LoadAssemblies (68ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (368ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (66ms)
+			SetupLoadedEditorAssemblies (524ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (27ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (74ms)
+				ProcessInitializeOnLoadAttributes (378ms)
+				ProcessInitializeOnLoadMethodAttributes (35ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.12 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3883 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (128.8 KB). Loaded Objects now: 4753.
+Memory consumption went from 135.6 MB to 135.5 MB.
+Total: 4.943935 ms (FindLiveObjects: 0.388979 ms CreateObjectMapping: 0.116238 ms MarkObjects: 3.998621 ms  DeleteObjects: 0.438513 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/s-curve_left.fbx
-  artifactKey: Guid(e9c9d983488b593c9aefafd8b948de07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/s-curve_left.fbx using Guid(e9c9d983488b593c9aefafd8b948de07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b6e53f7110fac9ab3f3b448cc017438') in 0.042199 seconds 
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005492 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /home/nunya/MarbleCalmness/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /home/nunya/MarbleCalmness/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 0.87 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.510 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1511ms)
+		BeginReloadAssembly (169ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (80ms)
+		EndReloadAssembly (1203ms)
+			LoadAssemblies (61ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (391ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (80ms)
+			SetupLoadedEditorAssemblies (571ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (30ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (81ms)
+				ProcessInitializeOnLoadAttributes (411ms)
+				ProcessInitializeOnLoadMethodAttributes (38ms)
+				AfterProcessingInitializeOnLoad (9ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.22 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3883 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (128.8 KB). Loaded Objects now: 4768.
+Memory consumption went from 135.6 MB to 135.5 MB.
+Total: 5.017423 ms (FindLiveObjects: 0.394941 ms CreateObjectMapping: 0.125295 ms MarkObjects: 4.037685 ms  DeleteObjects: 0.457859 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/helix_large_half_left.fbx
-  artifactKey: Guid(773a98268918cf3089232360fe1d0ec7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/helix_large_half_left.fbx using Guid(773a98268918cf3089232360fe1d0ec7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f81abe45cd53b4f2902d65c4bf90e49a') in 0.044342 seconds 
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003963 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /home/nunya/MarbleCalmness/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /home/nunya/MarbleCalmness/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 0.96 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.480 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1481ms)
+		BeginReloadAssembly (160ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (72ms)
+		EndReloadAssembly (1188ms)
+			LoadAssemblies (58ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (368ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (69ms)
+			SetupLoadedEditorAssemblies (590ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (29ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (87ms)
+				ProcessInitializeOnLoadAttributes (420ms)
+				ProcessInitializeOnLoadMethodAttributes (42ms)
+				AfterProcessingInitializeOnLoad (11ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.98 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3883 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (128.7 KB). Loaded Objects now: 4783.
+Memory consumption went from 135.6 MB to 135.5 MB.
+Total: 5.335169 ms (FindLiveObjects: 0.450445 ms CreateObjectMapping: 0.173385 ms MarkObjects: 4.239714 ms  DeleteObjects: 0.470062 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/cross.fbx
-  artifactKey: Guid(19278708eb99a2b6287314bad271b265) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/cross.fbx using Guid(19278708eb99a2b6287314bad271b265) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be24711be318b7ae089152bc9288b97a') in 0.043578 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000039 seconds.
-  path: Assets/ramp_long_A.fbx
-  artifactKey: Guid(05f5d9ecc62ea879fb1df96ffb5921c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ramp_long_A.fbx using Guid(05f5d9ecc62ea879fb1df96ffb5921c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a5262bfd5240f2259edb37555706546') in 0.035201 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/rampEnd_C.fbx
-  artifactKey: Guid(8aa7a4e91d93c79aca8522553ac91d54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/rampEnd_C.fbx using Guid(8aa7a4e91d93c79aca8522553ac91d54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ab85e1cf3d3899df63628ee2c1995ab') in 0.044902 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/curve_wide_large.fbx
-  artifactKey: Guid(9453d914191573acaa8e1f52348c2069) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/curve_wide_large.fbx using Guid(9453d914191573acaa8e1f52348c2069) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1893890cd3152c543f943f1efbd3f77e') in 0.032666 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/banner_double.fbx
-  artifactKey: Guid(c8a701c188a5d0efbafa266222f211a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/banner_double.fbx using Guid(c8a701c188a5d0efbafa266222f211a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ae70b82843d9b0740f84d8b648a46a5') in 0.031961 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/banner.fbx
-  artifactKey: Guid(989f2e8fa5c0d9a0fb5aa9d0ecbf1d3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/banner.fbx using Guid(989f2e8fa5c0d9a0fb5aa9d0ecbf1d3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e22e291681cbe8e23718e66124d6500') in 0.029548 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/ramp_long_solid_D.fbx
-  artifactKey: Guid(1e0722f9dc149887db553fa19a79c50c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ramp_long_solid_D.fbx using Guid(1e0722f9dc149887db553fa19a79c50c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ffa6712deb549e4b524f7079a2f4cf6') in 0.035114 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/bump_solid_D.fbx
-  artifactKey: Guid(97ec0203295e429d8b7442dddcf781c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/bump_solid_D.fbx using Guid(97ec0203295e429d8b7442dddcf781c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e619d265788587e5b9a6b2fe52f27d5') in 0.034519 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/rampEnd_B.fbx
-  artifactKey: Guid(6594ddc31e95ec54486f21b660d1b084) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/rampEnd_B.fbx using Guid(6594ddc31e95ec54486f21b660d1b084) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '998bbf6fa1df1e15622bf07da718e83a') in 0.033362 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/banner_hanging_high.fbx
-  artifactKey: Guid(de089860b439f23e6a3bd00de972f7a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/banner_hanging_high.fbx using Guid(de089860b439f23e6a3bd00de972f7a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd41526f14cfd6d3b10f3d71c03585153') in 0.035033 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/bump_solid_A.fbx
-  artifactKey: Guid(033d60da69960a066bd197e68ff1979a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/bump_solid_A.fbx using Guid(033d60da69960a066bd197e68ff1979a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8bf1c50bf8dad7da47534bea9d240fe1') in 0.032425 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/curve_solid_large.fbx
-  artifactKey: Guid(8563aa9c0c8b59c4e9520b7b06b6ef19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/curve_solid_large.fbx using Guid(8563aa9c0c8b59c4e9520b7b06b6ef19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e25568e62d72d8db93fe24437808840') in 0.034200 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/end_square.fbx
-  artifactKey: Guid(4c631daea314f0f97a336f6d0bfeb3b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/end_square.fbx using Guid(4c631daea314f0f97a336f6d0bfeb3b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3f232349c544384b79cc12032037c05') in 0.032017 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/curve_wide_solid_medium.fbx
-  artifactKey: Guid(678c18f63a1df41059de898a8b930956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/curve_wide_solid_medium.fbx using Guid(678c18f63a1df41059de898a8b930956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f5f1a14415241162617431ca6f60b65') in 0.031447 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/helix_half_left.fbx
-  artifactKey: Guid(e1fb7f2bd47e5aa0ea52a2f57fb4a7b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/helix_half_left.fbx using Guid(e1fb7f2bd47e5aa0ea52a2f57fb4a7b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c9c7742c68bd642cbef3a279f742f55') in 0.033177 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/banner_high.fbx
-  artifactKey: Guid(4d25bb0d346319f449c2cb2fa86ac919) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/banner_high.fbx using Guid(4d25bb0d346319f449c2cb2fa86ac919) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f50a003b45afdb396fec2a693c498c9') in 0.033184 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/end_rounded.fbx
-  artifactKey: Guid(cf586adf569e0e27da9bf74bf2ed1932) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/end_rounded.fbx using Guid(cf586adf569e0e27da9bf74bf2ed1932) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1e40d76e8bc00724edf553f080d4f7e') in 0.033084 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/curve_solid.fbx
-  artifactKey: Guid(57080e4a08d26d4368a7a08a830f9e96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/curve_solid.fbx using Guid(57080e4a08d26d4368a7a08a830f9e96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63f432869e3bb5a8efee2105ae4d2b80') in 0.035082 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/bend_medium.fbx
-  artifactKey: Guid(64287d84a652659089c1825b412b1a8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/bend_medium.fbx using Guid(64287d84a652659089c1825b412b1a8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b90af878a98d38cb99837e5c2779ab1') in 0.031099 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/bend_solid_medium.fbx
-  artifactKey: Guid(7c3f74e1d6523b427abb5533dcdcad0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/bend_solid_medium.fbx using Guid(7c3f74e1d6523b427abb5533dcdcad0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '134843945675be4447256175618fb9bf') in 0.031210 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/helix_large_right.fbx
-  artifactKey: Guid(a408fe328a22432aa8c8427081574939) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/helix_large_right.fbx using Guid(a408fe328a22432aa8c8427081574939) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa6c84239d0cff7bc14577cf5e9b0a12') in 0.034533 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/curve_wide.fbx
-  artifactKey: Guid(1f79e7906ad7cc8e4b9266ed33cf1acb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/curve_wide.fbx using Guid(1f79e7906ad7cc8e4b9266ed33cf1acb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3b91faa54810fd7a28d79c5ab2c31d5') in 0.036182 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/rampEnd_solid_C.fbx
-  artifactKey: Guid(c75b11a49a89d46de8a6428afe921bae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/rampEnd_solid_C.fbx using Guid(c75b11a49a89d46de8a6428afe921bae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ca527806102969ca993b6f8a37a777a') in 0.033822 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/banner_hanging.fbx
-  artifactKey: Guid(7695f93209d1efb459964f772d0e6924) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/banner_hanging.fbx using Guid(7695f93209d1efb459964f772d0e6924) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12f844923f8af0b95aef99ac20fa2eef') in 0.037811 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/rampEnd_solid_A.fbx
-  artifactKey: Guid(a1f2ebfdde9a1d6d7b9836eb76f1e02f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/rampEnd_solid_A.fbx using Guid(a1f2ebfdde9a1d6d7b9836eb76f1e02f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba47fa7eb3d68d211fcf20a33783cd8d') in 0.037087 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/rampStart_A.fbx
-  artifactKey: Guid(db217c4337ed86757822fa4496c7a19d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/rampStart_A.fbx using Guid(db217c4337ed86757822fa4496c7a19d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47382cf751548a66441fd0f93ad8d791') in 0.033146 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/helix_right.fbx
-  artifactKey: Guid(82b025cc2926177839b03fdb24f7502c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/helix_right.fbx using Guid(82b025cc2926177839b03fdb24f7502c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9cb05f3190fc827838e7f24e1d49af39') in 0.034445 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/funnel_long.fbx
-  artifactKey: Guid(10b436ad9acef87cea9639ecd19cc027) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/funnel_long.fbx using Guid(10b436ad9acef87cea9639ecd19cc027) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd73d0c58970bb8f3357070ba79c33d0c') in 0.036307 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/rampEnd_D.fbx
-  artifactKey: Guid(b8133888bf32970c0a0edd78c30402e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/rampEnd_D.fbx using Guid(b8133888bf32970c0a0edd78c30402e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e576259cd5b282a57e860547f97d44b2') in 0.033465 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/bump_D.fbx
-  artifactKey: Guid(a3b2ae722c4ddc3ab977d65698083cbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/bump_D.fbx using Guid(a3b2ae722c4ddc3ab977d65698083cbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6788b7db5e5fdf6f4f3c73c8151087b3') in 0.034332 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/helix_large_left.fbx
-  artifactKey: Guid(a3b2430e51c98f30cbd7f0dc86b0827d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/helix_large_left.fbx using Guid(a3b2430e51c98f30cbd7f0dc86b0827d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c68734511f146d5e10892ace08008c5e') in 0.033756 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/ramp_long_solid_C.fbx
-  artifactKey: Guid(f22c29166ae59bd22a3178a5e7446586) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ramp_long_solid_C.fbx using Guid(f22c29166ae59bd22a3178a5e7446586) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '944b818efacb3997ca7905db192a761e') in 0.033926 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/helix_half_right.fbx
-  artifactKey: Guid(9c20a74448a10c167804dcf6a3b9176f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/helix_half_right.fbx using Guid(9c20a74448a10c167804dcf6a3b9176f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a458d905fd84deb40fb3a58a2773c75e') in 0.033622 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/helix_quarter_right.fbx
-  artifactKey: Guid(7d1fc1ab82859a10ea1b137b582cd919) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/helix_quarter_right.fbx using Guid(7d1fc1ab82859a10ea1b137b582cd919) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07d58c328ba2c003d55e0dff92ad9c56') in 0.032754 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/rampStart_solid_A.fbx
-  artifactKey: Guid(ffbbc686530b03f8e99fe384a038b4a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/rampStart_solid_A.fbx using Guid(ffbbc686530b03f8e99fe384a038b4a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '482d88dfceb91d8c488b8a6a1ba6e270') in 0.032177 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/ramp_long_D.fbx
-  artifactKey: Guid(b7ca1ff266f7d77ebb1f15919da589f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ramp_long_D.fbx using Guid(b7ca1ff266f7d77ebb1f15919da589f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f103bdb3d44287f6af9680f2aa30c26f') in 0.030875 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/curve_wide_medium.fbx
-  artifactKey: Guid(7b09d9e3c25f65e44b0f844eeec78846) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/curve_wide_medium.fbx using Guid(7b09d9e3c25f65e44b0f844eeec78846) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '252fb739250af1afd4f20aa369cb5f1b') in 0.033977 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/corner.fbx
-  artifactKey: Guid(1352d7a49915b84b7b9dd6b40812434f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/corner.fbx using Guid(1352d7a49915b84b7b9dd6b40812434f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae15e66bb2ae31d28d7d67df99ab697f') in 0.039356 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/curve_wide_solid_large.fbx
-  artifactKey: Guid(0e04246b19c344f4d9aa82ceab4d06bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/curve_wide_solid_large.fbx using Guid(0e04246b19c344f4d9aa82ceab4d06bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f607012e9fc7e6189f0bb1bcbfe981cc') in 0.037013 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/bump_solid_B.fbx
-  artifactKey: Guid(4b6cd7234b5f2f15190c6c7fe8781269) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/bump_solid_B.fbx using Guid(4b6cd7234b5f2f15190c6c7fe8781269) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24f767bd1fe4a4073bd8f5654b6f0e93') in 0.036142 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/funnel.fbx
-  artifactKey: Guid(5019f3819a50cddfeb872da9b72403e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/funnel.fbx using Guid(5019f3819a50cddfeb872da9b72403e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a0469ed6a777e332d229e405ce995b0') in 0.037510 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/end_hole_rounded.fbx
-  artifactKey: Guid(40f833408e48e8b798e31141a0898a0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/end_hole_rounded.fbx using Guid(40f833408e48e8b798e31141a0898a0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0553a368de768bda920507e31010bda2') in 0.037097 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/rampStart_solid_B.fbx
-  artifactKey: Guid(ff875f75c2bde4d529b2302eb87b654e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/rampStart_solid_B.fbx using Guid(ff875f75c2bde4d529b2302eb87b654e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c24588a00488b3d95b094fef86a5aef') in 0.040734 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/s-curve_short_left_A.fbx
-  artifactKey: Guid(701e71cc94862eb13a7be37a2a429224) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/s-curve_short_left_A.fbx using Guid(701e71cc94862eb13a7be37a2a429224) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '133a6123752caa242fb52d27ef805f7f') in 0.034571 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/rampStart_D.fbx
-  artifactKey: Guid(28a8857aa7d60d46c91774cf78c230b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/rampStart_D.fbx using Guid(28a8857aa7d60d46c91774cf78c230b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62df27ea2eab0b86bccb86d5112f5836') in 0.038317 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/rampStart_B.fbx
-  artifactKey: Guid(d0fc445d0980ec4c495bc49f0676fb3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/rampStart_B.fbx using Guid(d0fc445d0980ec4c495bc49f0676fb3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58ed98b35be4e3ef4858a6341cc2c86d') in 0.033873 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/bend_solid_large.fbx
-  artifactKey: Guid(4fed09c2973d55497b3de616cdcfa84b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/bend_solid_large.fbx using Guid(4fed09c2973d55497b3de616cdcfa84b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c73486eba44bf15c19210d95556323d4') in 0.035907 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 42.830081 seconds.
-  path: Assets/straight_wide.fbx
-  artifactKey: Guid(8fe1b17fc3d71d65cb490003fc4b9857) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/straight_wide.fbx using Guid(8fe1b17fc3d71d65cb490003fc4b9857) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61f3eba7ffe292b77d864712b04b7114') in 0.035867 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 5.029522 seconds.
-  path: Assets/tree_tall_large.fbx
-  artifactKey: Guid(85c914af474cf3ca3a3182e0b7b26a4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/tree_tall_large.fbx using Guid(85c914af474cf3ca3a3182e0b7b26a4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '529b469b53743d12d4f80182ff1a4617') in 0.038355 seconds 
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003815 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /home/nunya/MarbleCalmness/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /home/nunya/MarbleCalmness/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 1.09 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.460 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1461ms)
+		BeginReloadAssembly (140ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (53ms)
+		EndReloadAssembly (1188ms)
+			LoadAssemblies (59ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (368ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (71ms)
+			SetupLoadedEditorAssemblies (592ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (31ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (84ms)
+				ProcessInitializeOnLoadAttributes (429ms)
+				ProcessInitializeOnLoadMethodAttributes (38ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.15 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3883 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (128.8 KB). Loaded Objects now: 4798.
+Memory consumption went from 135.7 MB to 135.5 MB.
+Total: 6.231921 ms (FindLiveObjects: 0.441659 ms CreateObjectMapping: 0.149240 ms MarkObjects: 5.135164 ms  DeleteObjects: 0.503634 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 

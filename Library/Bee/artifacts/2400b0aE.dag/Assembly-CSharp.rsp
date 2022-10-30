@@ -354,10 +354,11 @@
 -r:"Library/Bee/artifacts/2400b0aE.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/2400b0aE.dag/UnityEngine.UI.ref.dll"
 -r:"Library/Bee/artifacts/2400b0aE.dag/com.unity.cinemachine.editor.ref.dll"
-"Assets/BasicForceJump.cs"
-"Assets/BasicForceMovement.cs"
-"Assets/CameraController.cs"
-"Assets/FallDamage.cs"
+"Assets/scripts/BasicForceJump.cs"
+"Assets/scripts/BasicForceMovement.cs"
+"Assets/scripts/CameraController.cs"
+"Assets/scripts/FallDamage.cs"
+"Assets/scripts/ThirdPersonCam.cs"
 -langversion:9.0
 
 /deterministic

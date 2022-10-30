@@ -10,6 +10,7 @@ public class BasicForceMovement : MonoBehaviour
 
     [SerializeField] InputAction WASDInput;
     Vector2 movementInput;
+    public Transform orientation;
     [SerializeField] float force;
     [SerializeField] float topXZSpeed;
     [SerializeField] float topYSpeed;

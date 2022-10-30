@@ -23,7 +23,10 @@ public class FallDamage : MonoBehaviour
     void OnCollisionEnter(Collision other) 
     {
 
+	
+
         Debug.Log(other.relativeVelocity.magnitude);
+        
         if (other.relativeVelocity.magnitude > 25) {
             ContactPoint contact = other.contacts[0];
             Quaternion rot = Quaternion.FromToRotation(Vector3.up, contact.normal);
